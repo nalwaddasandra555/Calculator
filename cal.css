@@ -1,0 +1,34 @@
+body{
+    box-sizing: border-box;
+}
+.calculator{
+    width: 400px;
+    border: 5px maroon solid;
+    font-size: 100px;
+}
+.calcrow{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;   
+}
+section{
+    text-align: right;
+    background-color: black;
+    color: bisque;
+    padding: 20px 10px;
+    font-size: 40%;
+}
+.calbutton{
+    background-color: lightgray;
+    font-size: 40px;
+    flex-basis: 24.5%;
+}
+.buttonc{
+    flex-basis: 49%;
+}
+.button0{
+    flex-basis: 73.5%;
+}
+.buttonh{
+    background-color: orange;
+}
